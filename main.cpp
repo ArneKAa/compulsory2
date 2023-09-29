@@ -86,6 +86,7 @@ int calc(double number) {
 	return 0;
 }
 
+/// Start of calculations. Gets unput for first number which it uses as an argument into calc()
 int calcStart() {
 
 	double number;
@@ -123,6 +124,7 @@ int factorialStart() {
 	return 0;
 }
 
+///Prints product
 int writeProduct() {
 
 	bool printX = false; //Boolean for if something has been printed yet, don't want to print '+' after nothing
@@ -154,6 +156,7 @@ int writeProduct() {
 	return 0;
 }
 
+///Prints first polynomial
 int writePoly() { //copy paste from writeProduct() with small edits
 
 	bool printX = false;
@@ -186,6 +189,7 @@ int writePoly() { //copy paste from writeProduct() with small edits
 	return 0;
 }
 
+///Prints second polynomial
 int writePoly2() { //copy paste from writeProduct() with small edits
 
 	bool printX = false;
@@ -216,6 +220,7 @@ int writePoly2() { //copy paste from writeProduct() with small edits
 	return 0;
 }
 
+///Prints som or difference
 int writePolySum() { //copy paste from writeProduct() with small edits
 
 	bool printX = false;
@@ -246,7 +251,7 @@ int writePolySum() { //copy paste from writeProduct() with small edits
 	return 0;
 }
 
-
+///Creates values for arrayPoly
 int createPoly() {
 
 	cout << "\n\nFor the first polynomial";
@@ -263,6 +268,7 @@ int createPoly() {
 	return 0;
 }
 
+///Creates values for arrayPoly2
 int createPoly2() { //copy paste from createPoly()
 
 	cout << "\n\nFor the second polynomial";
@@ -280,6 +286,7 @@ int createPoly2() { //copy paste from createPoly()
 	return 0;
 }
 
+///Function for adding polynomials together
 int addPoly() {
 
 	createPoly();
@@ -298,6 +305,7 @@ int addPoly() {
 	return 0;
 }
 
+///function for multiplying polynomials with each other
 int multiplyPoly() {
 
 	createPoly();
@@ -317,6 +325,7 @@ int multiplyPoly() {
 	return 0;
 }
 
+///function for finding the difference between 2 polynomials
 int subtractPoly() { //copy paste from addPoly(), changing plus to minus
 
 	createPoly();
